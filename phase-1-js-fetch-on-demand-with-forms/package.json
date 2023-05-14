@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "jsdom": "^20.0.3",
+    "json-server": "^0.17.1",
+    "mocha": "^10.2.0"
+  }
+}

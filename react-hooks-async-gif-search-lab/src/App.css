@@ -1,0 +1,14 @@
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gif-li {
+    list-style: none;
+  }
+  .gif-img {
+    width: 250px;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 12px;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.video-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  align-items: center;
+}
+
+.video-details-container__view {
+  padding: 0;
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.video-details-container__view > * {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.details-border {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.comment-list {
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid grey;
+  margin-top: 12px;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.comment-list--invisible {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.comment-list h1 {
+  margin-bottom: 30px;
+}
+
+.comment h2 {
+  font-size: 20px;
+}
+
+.comment h3 {
+  font-size: 15px;
+  font-weight: 300;
+}

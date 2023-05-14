@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+        "id": 1,
+        "regNo": 1254,
+        "name": "Paul T.",
+         "amountPaid": 500
+    }, {
+        "regNo": 2458,
+        "name": "Abraham Lincoln",
+         "amountPaid": 1800,
+         "id": 2
+
+    }, {
+        "regNo": 3652,
+        "name": "Dennis B",
+         "amountPaid": 1500,
+         "id": 3
+
+    }, {
+        "regNo": 4589,
+        "name": "Margaret Thatcher",
+         "amountPaid": 2650,
+         "id": 4
+
+    }
+  ]
+}
